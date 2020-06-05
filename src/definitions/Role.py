@@ -1,0 +1,2 @@
+WORKER = 'WORKER'
+USER = 'USER'
