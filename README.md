@@ -1,6 +1,8 @@
 ```bash
-docker-compose up -d redis_commaner
 pipenv install
-pipenv shell
-python main.py
+
+pipenv run prepare
+pipenv run python main.py
+
+docker stop ${id container-а}
 ```
